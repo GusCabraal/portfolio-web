@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import img from '../../src/assets/backgroundBody.jpg'
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -32,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background: var(--background);
+    background-image: url(${img});
     -webkit-font-smoothing: antialiased;
   }
 
