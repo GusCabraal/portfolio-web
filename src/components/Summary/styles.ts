@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.header``;
+export const Container = styled.div``;
 export const FirstSection = styled.section`
-  /* background: var(--red); */
   display: flex;
   align-items: center;
-  border: 1px solid black;
   justify-content: space-evenly;
   height: 25rem;
   div {
@@ -19,21 +17,6 @@ export const FirstSection = styled.section`
       text-align: left;
     }
 
-    button {
-      background: rgba(255, 255, 255, 0.5);
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      border: 0;
-      font-weight: 500;
-      border-radius: 0.5rem;
-      font-size: 1.25rem;
-      color: black;
-
-      transition: filter 0.2s;
-      &:hover {
-        filter: brightness(0.8);
-      }
-    }
   }
 
   img {
@@ -46,4 +29,19 @@ export const FirstSection = styled.section`
 `;
 export const SecondSection = styled.section`
   /* background: var(--red); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  background: rgba(0,0,0,0.6);
+
+  div {
+
+    p {
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.125rem;
+      color: #fff;
+    }
+  }
 `;
