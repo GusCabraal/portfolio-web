@@ -24,12 +24,18 @@ export function MyProjects() {
         <BsChevronCompactLeft className="change-project" onClick={() => showPreviousProject()} size={30} />
       </div>
       <section>
-        <h2>{myProjects[currentIndex].name}</h2>
+        <h1>Projetos</h1>
         <img src={myProjects[currentIndex].image} alt="project"/>
+        <h2>{myProjects[currentIndex].name}</h2>
         <p>{myProjects[currentIndex].description}</p>
         <button type="button">
-          <a href={myProjects[currentIndex].html_url} target="_blank">
-            Acessar repositório
+          <a href={myProjects[currentIndex].github_url} target="_blank">
+            Repositório
+          </a>
+        </button>
+        <button type="button" disabled={!myProjects[currentIndex]?.deploy_url}>
+          <a href={myProjects[currentIndex]?.deploy_url} target="_blank">
+            Deploy
           </a>
         </button>
       </section>

@@ -34,6 +34,7 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     background-image: url(${img});
+    width: 100vw;
     -webkit-font-smoothing: antialiased;
   }
 

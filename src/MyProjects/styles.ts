@@ -4,28 +4,33 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 45rem;
-  margin-inline: 5rem;
+  padding-inline: 5rem;
+  margin-block: 3rem;
 
   section {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    
-    h2 {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    
-    img {
-        max-width: 40rem;
-        object-fit: cover;
-        margin-bottom: 2rem;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 3rem;
     }
 
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    img {
+      max-width: 45rem;
+      object-fit: cover;
+      margin-bottom: 2rem;
+    }
 
     p {
-        text-align: justify;
+      text-align: justify;
     }
     button {
       background: rgba(255, 255, 255, 0.5);
@@ -38,12 +43,14 @@ export const Container = styled.div`
       &:hover {
         filter: brightness(0.8);
       }
+      &:disabled {
+        visibility: hidden;
+      }
     }
     a {
       text-decoration: none;
       font-weight: 500;
       color: black;
-    
     }
   }
 
@@ -51,5 +58,4 @@ export const Container = styled.div`
     cursor: pointer;
     margin-inline: 8rem;
   }
-
 `;

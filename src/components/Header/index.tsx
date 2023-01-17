@@ -9,20 +9,12 @@ export function Header() {
       <Content>
         <img src={logoImg} alt="logo" className="logo" />
         <nav>
-          <button>
-            <a>Resumo</a>
-          </button>
-          <button>
-            <a>Projetos</a>
-          </button>
-          <div>
-            <a>
-              <img src={linkedinLogoImg} alt="logo linkedin" />
-            </a>
-            <a>
-              <img src={githubLogoImg} alt="logo linkedin" />
-            </a>
-          </div>
+          <a>
+            <img src={linkedinLogoImg} alt="logo linkedin" />
+          </a>
+          <a>
+            <img src={githubLogoImg} alt="logo linkedin" />
+          </a>
         </nav>
       </Content>
     </Container>
