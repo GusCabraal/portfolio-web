@@ -9,10 +9,10 @@ export function Header() {
       <Content>
         <img src={logoImg} alt="logo" className="logo" />
         <nav>
-          <a>
+          <a href="https://www.linkedin.com/in/guscabraal/" target="_blank">
             <img src={linkedinLogoImg} alt="logo linkedin" />
           </a>
-          <a>
+          <a href="https://github.com/guscabraal" target="_blank">
             <img src={githubLogoImg} alt="logo linkedin" />
           </a>
         </nav>
