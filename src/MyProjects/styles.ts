@@ -4,29 +4,33 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 5rem;
-  margin-block: 3rem;
+  /* padding-inline: 5rem; */
+  padding-block: 4rem;
+
 
   section {
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    justify-content: center;
 
     h1 {
       text-align: center;
       margin-bottom: 2rem;
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
     h2 {
       text-align: center;
       margin-bottom: 2rem;
+      font-size: 1.5rem;
     }
 
     img {
       max-width: 45rem;
       object-fit: cover;
       margin-bottom: 2rem;
+      margin-inline: auto;
     }
 
     p {

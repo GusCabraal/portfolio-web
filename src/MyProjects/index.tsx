@@ -24,7 +24,7 @@ export function MyProjects() {
         <BsChevronCompactLeft className="change-project" onClick={() => showPreviousProject()} size={30} />
       </div>
       <section>
-        <h1>Projetos</h1>
+        <h1>Projetos desenvolvidos</h1>
         <img src={myProjects[currentIndex].image} alt="project"/>
         <h2>{myProjects[currentIndex].name}</h2>
         <p>{myProjects[currentIndex].description}</p>
