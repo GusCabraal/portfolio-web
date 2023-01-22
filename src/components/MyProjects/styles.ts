@@ -13,6 +13,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: space-between;
     justify-content: center;
+    width: 70%;
 
     h1 {
       text-align: center;
@@ -22,12 +23,12 @@ export const Container = styled.div`
 
     h2 {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       font-size: 1.5rem;
     }
 
     img {
-      max-width: 45rem;
+      max-width: 35rem;
       object-fit: cover;
       margin-bottom: 2rem;
       margin-inline: auto;
@@ -35,6 +36,11 @@ export const Container = styled.div`
 
     p {
       text-align: justify;
+      padding-block: 1rem;
+
+      span {
+        font-weight: 600;
+      }
     }
     button {
       background: rgba(255, 255, 255, 0.5);
@@ -60,6 +66,6 @@ export const Container = styled.div`
 
   .change-project {
     cursor: pointer;
-    margin-inline: 8rem;
+    margin-inline: 3rem;
   }
 `;

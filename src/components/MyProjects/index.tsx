@@ -27,7 +27,8 @@ export function MyProjects() {
         <h1>Projetos desenvolvidos</h1>
         <img src={myProjects[currentIndex].image} alt="project"/>
         <h2>{myProjects[currentIndex].name}</h2>
-        <p>{myProjects[currentIndex].description}</p>
+        <p><span>Descrição: </span>{myProjects[currentIndex].description}</p>
+        <p><span>Stacks utilizadas: </span>{myProjects[currentIndex].stacks}</p>
         <button type="button">
           <a href={myProjects[currentIndex].github_url} target="_blank">
             Repositório

@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { MyStacks } from './components/MyStacks';
 import { Profile } from './components/Profile';
 import { Summary } from './components/Summary';
-import { MyProjects } from './MyProjects';
+import { MyProjects } from './components/MyProjects';
 import { GlobalStyle } from "./styles/global";
 
 

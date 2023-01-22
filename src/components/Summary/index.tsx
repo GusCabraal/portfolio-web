@@ -4,8 +4,9 @@ export function Summary() {
   return (
     <Container>
       <div>
+        <h1>Sobre mim</h1>
         <p>
-          Sou um amante de café sem açucar, viajar e passar tempo de qualidade
+          Sou um amante de café sem açúcar, viajar e passar tempo de qualidade
           com as pessoas que eu amo.
         </p>
         <p>

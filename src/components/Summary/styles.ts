@@ -5,10 +5,17 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25rem;
+  padding: 5rem;
   background: rgba(0,0,0,0.6);
 
   div {
+    h1 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+
+    }
 
     p {
       padding: 1rem;
