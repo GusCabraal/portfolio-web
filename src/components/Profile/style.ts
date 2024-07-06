@@ -22,7 +22,6 @@ export const Container = styled.section`
     width: 15rem;
     height: 15rem;
     border-radius: 100%;
-    /* border: 2px solid black; */
     box-shadow: 2px 2px black;
   }
 `;
