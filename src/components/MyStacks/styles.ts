@@ -19,10 +19,14 @@ export const Container = styled.div`
     gap: 2rem;
 
     div {
-      padding: 2.5rem;
+      padding: 1.5rem 2rem;
       background: rgba(255, 255, 255, 0.2);
       border-radius: 0.5rem;
       box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
 
       img {
         width: 5rem;
@@ -32,6 +36,7 @@ export const Container = styled.div`
       p {
         text-align: center;
         color: #fff;
+        font-size: 1rem;
       }
       transition: filter 0.2s;
       &:hover {
