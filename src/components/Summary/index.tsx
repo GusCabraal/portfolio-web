@@ -6,20 +6,14 @@ export function Summary() {
       <div>
         <h1>Sobre mim</h1>
         <p>
-          Sou um amante de café sem açúcar, viajar e passar tempo de qualidade
-          com as pessoas que eu amo.
+        Tenho 2 anos de experiencia trabalhando como desenvolvedor backend em uma startup do setor jurídico.
         </p>
         <p>
-          Engenheiro civil, fazendo transição de carreira e a procura de minha
-          primeira vaga.
+        Possuo experiência em manutenção e desenvolvimento de novos produtos utilizando as tecnologias TypeScript, Gloogle Cloud Platform (GCP), banco de dados relacional e não relacional, também tive um breve contato com Python.
         </p>
         <p>
           Minhas principais habilidades são resolução de problemas, colaboração
           e capacidade analítica.
-        </p>
-        <p>
-          Estudante de desenvolvimento web na Trybe, cursando o último módulo da
-          formação.
         </p>
       </div>
     </Container>
