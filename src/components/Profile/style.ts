@@ -14,8 +14,8 @@ export const Container = styled.section`
     h1 {
       font-size: 2rem;
       text-align: left;
+      margin-bottom: 1rem;
     }
-
   }
 
   img {

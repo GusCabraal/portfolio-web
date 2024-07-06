@@ -6,7 +6,7 @@ export function Profile() {
       <Container>
           <div>
             <h1>OLÁ, SOU GUSTAVO CABRAL</h1>
-            <h3>Desenvolvedor web full stack</h3>
+            <h3>Desenvolvedor Backend</h3>
           </div>
           <img src={profileImg} alt="cabralzinho" />
       </Container>
